@@ -27,6 +27,8 @@ Lint/EndAlignment:
   EnforcedStyleAlignWith: variable
 Lint/Loop:
   Enabled: false
+Metrics/BlockLength:
+  Max: 300
 Metrics/ClassLength:
   Max: 300
 Metrics/LineLength:
