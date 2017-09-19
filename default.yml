@@ -7,7 +7,7 @@ Layout/FirstArrayElementLineBreak:
 Layout/FirstHashElementLineBreak:
   Enabled: true
 Layout/FirstMethodArgumentLineBreak:
-  Enabled: true
+  Enabled: false
 Layout/FirstMethodParameterLineBreak:
   Enabled: true
 Layout/FirstParameterIndentation:
