@@ -14,5 +14,5 @@ Gem::Specification.new do |spec|
   spec.test_files    = []
   spec.require_paths = ['lib']
 
-  spec.add_dependency('rubocop', '~> 0.49.1')
+  spec.add_dependency('rubocop', '~> 0.54.0')
 end
