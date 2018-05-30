@@ -2,6 +2,8 @@ AllCops:
   DisplayCopNames: true
 Layout/EmptyLineBetweenDefs:
   AllowAdjacentOneLineDefs: true
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
 Layout/FirstArrayElementLineBreak:
   Enabled: true
 Layout/FirstHashElementLineBreak:
@@ -23,8 +25,6 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-Lint/EndAlignment:
-  EnforcedStyleAlignWith: variable
 Lint/Loop:
   Enabled: false
 Metrics/AbcSize:
@@ -41,7 +41,7 @@ Metrics/ModuleLength:
   Max: 300
 Metrics/ParameterLists:
   CountKeywordArgs: false
-Style/AccessorMethodName:
+Naming/AccessorMethodName:
   Enabled: false
 Style/AndOr:
   EnforcedStyle: conditionals
