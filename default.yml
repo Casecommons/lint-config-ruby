@@ -67,6 +67,8 @@ Style/DocumentationMethod:
   Enabled: false
 Style/DoubleNegation:
   Enabled: false
+Style/FormatStringToken:
+  Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
 Style/Lambda:
