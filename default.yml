@@ -23,7 +23,7 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-Lint/EndAlignment:
+Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 Lint/Loop:
   Enabled: false
@@ -41,7 +41,7 @@ Metrics/ModuleLength:
   Max: 300
 Metrics/ParameterLists:
   CountKeywordArgs: false
-Style/AccessorMethodName:
+Naming/AccessorMethodName:
   Enabled: false
 Style/AndOr:
   EnforcedStyle: conditionals
@@ -66,6 +66,8 @@ Style/Documentation:
 Style/DocumentationMethod:
   Enabled: false
 Style/DoubleNegation:
+  Enabled: false
+Style/FormatStringToken:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
@@ -94,7 +96,9 @@ Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 Style/VariableInterpolation:
   Enabled: false
