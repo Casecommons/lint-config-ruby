@@ -19,3 +19,12 @@ inherit_gem:
   lint-config-cc:
     - default.yml
 ```
+
+## Publish a release
+In order to publish a release to artifactory, you can run the following command
+
+Please make sure to update the version in the .gemspec file before pushing a release.
+
+```
+rake release
+```
