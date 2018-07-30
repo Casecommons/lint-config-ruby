@@ -7,7 +7,7 @@ Configuration for [RuboCop](http://batsov.com/rubocop/) per Case Commons style g
 Add to `Gemfile` in your project:
 
 ```ruby
-gem 'lint-config-cc', git: 'https://github.com/Casecommons/lint-config-ruby.git'
+gem 'lint-config-ruby', git: 'https://github.com/Casecommons/lint-config-ruby.git'
 ```
 
 Then use [`inherit_gem`](https://rubocop.readthedocs.io/en/latest/configuration/#inheriting-configuration-from-a-dependency-gem) to include the configuration in your own project. For example:
@@ -16,7 +16,7 @@ Then use [`inherit_gem`](https://rubocop.readthedocs.io/en/latest/configuration/
 # .rubocop.yml
 
 inherit_gem:
-  lint-config-cc:
+  lint-config-ruby:
     - default.yml
 ```
 
